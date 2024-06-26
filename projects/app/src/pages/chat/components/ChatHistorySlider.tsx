@@ -356,7 +356,7 @@ const ChatHistorySlider = ({
           alignItems={'center'}
           cursor={'pointer'}
           p={3}
-          onClick={() => router.push('/app/list')}
+          onClick={() => router.push('/dataset/list')}
         >
           <IconButton
             mr={3}

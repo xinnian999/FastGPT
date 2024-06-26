@@ -3,7 +3,7 @@ import type { createHttpPluginBody } from '@/pages/api/core/app/httpPlugin/creat
 import type { UpdateHttpPluginBody } from '@/pages/api/core/app/httpPlugin/update';
 import { FlowNodeTemplateType } from '@fastgpt/global/core/workflow/type';
 import { getMyApps } from '../api';
-import type { ListAppBody } from '@/pages/api/core/app/list';
+import type { ListAppBody } from '@/pages/api/core/dataset/list';
 import { FlowNodeTypeEnum } from '@fastgpt/global/core/workflow/node/constant';
 import { FlowNodeTemplateTypeEnum } from '@fastgpt/global/core/workflow/constants';
 import type { GetPreviewNodeQuery } from '@/pages/api/core/app/plugin/getPreviewNode';

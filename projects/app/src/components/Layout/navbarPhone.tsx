@@ -20,14 +20,14 @@ const NavbarPhone = ({ unread }: { unread: number }) => {
         activeLink: ['/chat'],
         unread: 0
       },
-      {
-        label: t('navbar.Studio'),
-        icon: 'core/app/aiLight',
-        activeIcon: 'core/app/aiFill',
-        link: `/app/list`,
-        activeLink: ['/app/list', '/app/detail'],
-        unread: 0
-      },
+      // {
+      //   label: t('navbar.Studio'),
+      //   icon: 'core/app/aiLight',
+      //   activeIcon: 'core/app/aiFill',
+      //   link: `/dataset/list`,
+      //   activeLink: ['/dataset/list', '/app/detail'],
+      //   unread: 0
+      // },
       {
         label: t('navbar.Tools'),
         icon: 'phoneTabbar/tool',

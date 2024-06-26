@@ -3,12 +3,13 @@ import type { AppDetailType, AppListItemType } from '@fastgpt/global/core/app/ty
 import type { GetAppChatLogsParams } from '@/global/core/api/appReq.d';
 import { AppUpdateParams } from '@/global/core/app/api';
 import type { CreateAppBody } from '@/pages/api/core/app/create';
-import type { ListAppBody } from '@/pages/api/core/app/list';
+import type { ListAppBody } from '@/pages/api/core/dataset/list';
 
 /**
  * 获取模型列表
  */
-export const getMyApps = (data?: ListAppBody) => POST<AppListItemType[]>('/core/app/list', data);
+export const getMyApps = (data?: ListAppBody) =>
+  POST<AppListItemType[]>('/core/dataset/list', data);
 
 /**
  * 创建一个模型

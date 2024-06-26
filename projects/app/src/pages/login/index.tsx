@@ -36,7 +36,7 @@ const Login = () => {
       setUserInfo(res.user);
       setToken(res.token);
       setTimeout(() => {
-        router.push(lastRoute ? decodeURIComponent(lastRoute) : '/app/list');
+        router.push(lastRoute ? decodeURIComponent(lastRoute) : '/dataset/list');
       }, 300);
     },
     [lastRoute, router, setLastChatId, setLastChatAppId, setUserInfo]
@@ -63,7 +63,7 @@ const Login = () => {
   }, [feConfigs.oauth]);
   useEffect(() => {
     clearToken();
-    router.prefetch('/app/list');
+    router.prefetch('/dataset/list');
   }, []);
 
   return (

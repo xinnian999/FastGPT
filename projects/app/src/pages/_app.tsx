@@ -15,6 +15,16 @@ import NextHead from '@/components/common/NextHead';
 function App({ Component, pageProps }: AppProps) {
   const { feConfigs, scripts, title } = useInitApp();
 
+  setTimeout(() => {
+    document.title = 'RISE-VAST';
+    // const link =
+    //     document.querySelector("link[rel*='icon']") || document.createElement('link');
+    // link.type = 'image/x-icon';
+    // link.rel = 'shortcut icon';
+    // link.href = require(`@/assets/favicon/${globals.favicon}`);
+    // document.getElementsByTagName('head')[0].appendChild(link);
+  }, 200);
+
   return (
     <>
       <NextHead

@@ -46,7 +46,7 @@ const Header = () => {
   const saveAndBack = useCallback(async () => {
     try {
       await onSaveWorkflow();
-      router.push('/app/list');
+      router.push('/dataset/list');
     } catch (error) {}
   }, [onSaveWorkflow, router]);
   // effect

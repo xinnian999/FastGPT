@@ -31,7 +31,7 @@ const provider = ({ code, state, error }: { code: string; state: string; error?:
 
       setTimeout(() => {
         router.push(
-          loginStore?.lastRoute ? decodeURIComponent(loginStore?.lastRoute) : '/app/list'
+          loginStore?.lastRoute ? decodeURIComponent(loginStore?.lastRoute) : '/dataset/list'
         );
       }, 100);
     },
@@ -76,7 +76,7 @@ const provider = ({ code, state, error }: { code: string; state: string; error?:
 
   useEffect(() => {
     clearToken();
-    router.prefetch('/app/list');
+    router.prefetch('/dataset/list');
     if (error) {
       toast({
         status: 'warning',

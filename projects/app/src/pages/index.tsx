@@ -5,8 +5,9 @@ import { useRouter } from 'next/router';
 
 const index = () => {
   const router = useRouter();
+
   useEffect(() => {
-    router.push('/app/list');
+    router.push('/dataset/list');
   }, [router]);
   return <Loading></Loading>;
 };

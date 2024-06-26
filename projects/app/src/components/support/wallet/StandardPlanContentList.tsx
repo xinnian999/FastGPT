@@ -115,12 +115,12 @@ const StandardPlanContentList = ({
           <Box color={'myGray.600'}>检索结果重排</Box>
         </Flex>
       )}
-      {!!planContent.permissionWebsiteSync && (
-        <Flex alignItems={'center'}>
-          <MyIcon name={'price/right'} w={'16px'} mr={3} />
-          <Box color={'myGray.600'}>Web站点同步</Box>
-        </Flex>
-      )}
+      {/*{!!planContent.permissionWebsiteSync && (*/}
+      {/*  <Flex alignItems={'center'}>*/}
+      {/*    <MyIcon name={'price/right'} w={'16px'} mr={3} />*/}
+      {/*    <Box color={'myGray.600'}>Web站点同步</Box>*/}
+      {/*  </Flex>*/}
+      {/*)}*/}
     </Grid>
   ) : null;
 };

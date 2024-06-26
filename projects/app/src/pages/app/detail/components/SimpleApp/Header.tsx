@@ -41,7 +41,7 @@ const Header = ({
   const onclickRoute = useCallback(
     (parentId: string) => {
       router.push({
-        pathname: '/app/list',
+        pathname: '/dataset/list',
         query: {
           parentId
         }

@@ -145,7 +145,7 @@ const Chat = ({
 
         // reset all chat tore
         if (e?.code === 501) {
-          router.replace('/app/list');
+          router.replace('/dataset/list');
         } else if (chatId) {
           onChangeChatId('');
         }
@@ -291,7 +291,7 @@ const Render = (props: Props) => {
           status: 'error',
           title: t('core.chat.You need to a chat app')
         });
-        router.replace('/app/list');
+        router.replace('/dataset/list');
       } else {
         router.replace({
           query: {

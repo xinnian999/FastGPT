@@ -196,7 +196,7 @@ const NodeTemplatesModal = ({ isOpen, onClose }: ModuleTemplateListProps) => {
                     color: 'primary.600'
                   }}
                   fontSize={'sm'}
-                  onClick={() => router.push('/app/list')}
+                  onClick={() => router.push('/dataset/list')}
                 >
                   <Box>去创建</Box>
                   <MyIcon name={'common/rightArrowLight'} w={'14px'} />

@@ -76,18 +76,18 @@ const AIChatSettingsModal = ({
       title={
         <>
           {t('core.ai.AI settings')}
-          {feConfigs?.docUrl && (
-            <Link
-              href={getDocPath('/docs/course/ai_settings/')}
-              target={'_blank'}
-              ml={1}
-              textDecoration={'underline'}
-              fontWeight={'normal'}
-              fontSize={'md'}
-            >
-              {t('common.Read intro')}
-            </Link>
-          )}
+          {/*{feConfigs?.docUrl && (*/}
+          {/*  <Link*/}
+          {/*    href={getDocPath('/docs/course/ai_settings/')}*/}
+          {/*    target={'_blank'}*/}
+          {/*    ml={1}*/}
+          {/*    textDecoration={'underline'}*/}
+          {/*    fontWeight={'normal'}*/}
+          {/*    fontSize={'md'}*/}
+          {/*  >*/}
+          {/*    {t('common.Read intro')}*/}
+          {/*  </Link>*/}
+          {/*)}*/}
         </>
       }
       w={'500px'}
